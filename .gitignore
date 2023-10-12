@@ -1,0 +1,12 @@
+bin/*
+!bin/.gitkeep
+
+venv/
+__pycache__/
+python_app_template.egg-info/
+python-app-template-0.0.0/
+/.idea
+
+.env
+*.log
+*.pex
