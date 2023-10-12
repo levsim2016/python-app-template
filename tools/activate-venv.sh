@@ -27,7 +27,7 @@ activate() {
       echo -1
   fi
   
-  /bin/bash -c ". ${1}; /bin/bash -i"
+  /bin/bash -c ". ${1}"
 }
 
 cd $(dirname $(realpath $0))/..
